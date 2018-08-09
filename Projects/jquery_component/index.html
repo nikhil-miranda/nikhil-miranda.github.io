@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link type="text/javascript" href="index.js">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <title>Collapse using only JQUERY</title>
+</head>
+
+<body>
+
+  <div class="divTable">
+    <div class="divTableBody">
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="number1">
+          <button>PROCESSOR</button>
+        </div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">
+          <div id="paranumber1" style="background-color: white;">
+            <img class="res_img" src="mp.png">
+            <p>An integrated circuit that contains all the functions of a central processing unit of a computer.<br></p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="number2">
+          <button>MOTHERBOARD</button>
+        </div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">
+          <div id="paranumber2" style="background-color: white;" >
+            <img class="res_img" src="mb.jpg">
+            <p>A printed circuit board containing the principal components of a computer or other device, with connectors for other circuit boards to be slotted into.<br></p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="number3">
+          <button>RAM STICK</button>
+        </div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">
+          <div id="paranumber3" style="background-color: white;">
+            <img class="res_img" src="ram.jpg">
+            <p>RAM is an acronym for random access memory, a type of computer memory that can be accessed randomly; that is, any byte of memory can be accessed without touching the preceding bytes.<br></p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="number4">
+          <button>HARD DISK</button>
+        </div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">
+          <div id="paranumber4" style="background-color: white;">
+            <img class="res_img" src="hdd.jpg">
+            <p>A hard disk drive (HDD) is an electromechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material.
+             <br> </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="number5">
+          <button>POWER SUPPLY UNIT</button>
+        </div>
+      </div>
+      <div class="divTableRow">
+        <div class="divTableCell">
+          <div id="paranumber5" style="background-color: white;">
+            <img class="res_img" src="psu.png">
+            <p>A power supply unit (or PSU) converts mains AC to low-voltage regulated DC power for the internal components of a computer. Modern personal computers universally use switched-mode power supplies. Some power supplies have a manual switch for selecting input voltage, while others automatically adapt to the mains voltage<br></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script>  
+    $(document).ready(function () {
+      $("#number1").click(function () {
+        $("#paranumber1").toggle(500);
+      });
+    });
+
+    $(document).ready(function () {
+      $("#number2").click(function () {
+        $("#paranumber2").toggle(500);
+      });
+    });
+
+    $(document).ready(function () {
+      $("#number3").click(function () {
+        $("#paranumber3").toggle(500);
+      });
+    });
+
+    $(document).ready(function () {
+      $("#number4").click(function () {
+        $("#paranumber4").toggle(500);
+      });
+    });
+
+    $(document).ready(function () {
+      $("#number5").click(function () {
+        $("#paranumber5").toggle(500);
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>
