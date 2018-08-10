@@ -1,5 +1,2 @@
 # nikhilmiranda.github.io
-# nikhilmiranda.github.io
-# shallowbethygame.github.io
-# shallowbethygame.github.io
-# nikhilmiranda.github.io
+linkedin profile : https://www.linkedin.com/in/nikhil-miranda-04360441/
