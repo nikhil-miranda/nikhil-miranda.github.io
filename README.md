@@ -6,4 +6,4 @@ This website was made by me while I had bunked a boring lecture (Working of CRT 
 
 Linkedin profile : https://www.linkedin.com/in/nikhil-miranda-04360441/
 
-Professional Github Account: https://github.com/nikhilmiranda
+Professional Github Account: https://github.com/nikhil-miranda
